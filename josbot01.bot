@@ -1,0 +1,18 @@
+{
+    "name": "josbot01",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "473a64cd-9b74-4a1f-8790-d3e7121e5782",
+            "appPassword": "MprdcyUolS4rvZ6m4az0BQ==!gRLGw7elRfmAOsXFwCbUgB1Wj0hkajDBy1Cxyao58iw=",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "706f2510-c828-11e9-9cc0-af28ea1f99e9",
+            "name": "josbot01"
+        }
+    ],
+    "padlock": "MEetF4ZxTicMRKfIETsbEA==!PaktuTKV1ELi2JVGrb+11d54TdsjmIsAGXo2N8VMqtHzYrohmMJrR1OxI+E593qt",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\Chun Yin\\Desktop\\azurebot\\josbot01.bot"
+}

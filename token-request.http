@@ -1,0 +1,5 @@
+
+# Generate Token for DirectLine communication
+POST https://directline.botframework.com/v3/directline/tokens/generate HTTP/1.1
+content-type: application/json
+Authorization: Bearer MiLdGm27zTY.GmMM6He9X-sl9QYFyqOwwmys2d80Ns_x-DaydImPT1U
