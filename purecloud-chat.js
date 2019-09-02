@@ -67,11 +67,10 @@ function startChat(_adapter, _context, _conversationState) {
                         // do only once after chat session initated. Save particiapnt data and other required informations
                         _conversationState.purecloud = {};
                         _conversationState.purecloud.conversationId = data.eventBody.conversation.id;
-                        _conversationState.purecloud.agentId = data.eventBody.member.id;
+                        _conversationState.purecloud.agentId = info.member.id;
                         _conversationState.purecloud.botConversationId = _context.conversation.id;
                         _conversationState.purecloud.chatId = info.jwt;
-                        console.log(stringify(data));
-
+                        
                         console.log('conversationId', _conversationState.purecloud.conversationId);
                         console.log('agentId', _conversationState.purecloud.agentId);
 
